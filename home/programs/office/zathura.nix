@@ -21,7 +21,7 @@
     extraConfig = "include catppuccin-mocha";
   };
 
-  xdg.configFile = {
+  /* xdg.configFile = {
     "zathura/catppuccin-latte".source = pkgs.fetchurl {
       url = "https://raw.githubusercontent.com/catppuccin/zathura/main/themes/catppuccin-latte";
       hash = "...";
@@ -32,5 +32,5 @@
       hash = "...";
       #hash = "sha256-/HXecio3My2eXTpY7JoYiN9mnXsps4PAThDPs4OCsAk=";
     };
-  };
+  }; */
 }
