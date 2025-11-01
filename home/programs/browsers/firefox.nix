@@ -1,7 +1,7 @@
 {
   programs.firefox = {
     enable = true;
-    profiles.mihai = {
+    profiles.devnull = {
       settings = {
         "apz.overscroll.enabled" = true;
         "browser.aboutConfig.showWarning" = false;

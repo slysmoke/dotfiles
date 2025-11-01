@@ -40,7 +40,7 @@
 
           {
             home-manager = {
-              users.mihai.imports = homeImports."mihai@io";
+              users.devnull.imports = homeImports."devnull@io";
               extraSpecialArgs = specialArgs;
               backupFileExtension = ".hm-backup";
             };
@@ -67,7 +67,7 @@
           "${mod}/programs/home-manager.nix"
           {
             home-manager = {
-              users.mihai.imports = homeImports.server;
+              users.devnull.imports = homeImports.server;
               extraSpecialArgs = specialArgs;
               backupFileExtension = ".hm-backup";
             };

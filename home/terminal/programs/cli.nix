@@ -59,11 +59,7 @@
           userKnownHostsFile = "~/.ssh/known_hosts";
         };
 
-        "cloudut" = {
-          hostname = "10.20.7.115";
-          user = "cloud7115";
-          identityFile = "${config.home.homeDirectory}/.ssh/cloud7115_id_ed25519";
-        };
+        
       };
     };
   };

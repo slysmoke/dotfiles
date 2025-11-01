@@ -5,7 +5,7 @@
 }:
 let
   cfg = config.programs.git;
-  key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOq9Gew1rgfdIyuriJ/Ne0B8FE1s8O/U2ajErVQLUDu9 mihai@io";
+  key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOq9Gew1rgfdIyuriJ/Ne0B8FE1s8O/U2ajErVQLUDu9 devnull@io";
 in
 {
   home.packages = [ pkgs.gh ];
@@ -110,8 +110,8 @@ in
       pull.rebase = true;
     };
 
-    userEmail = "mihai@fufexan.net";
-    userName = "Mihai Fufezan";
+    userEmail = "dmitri.merzin@gmail.com";
+    userName = "Dmitri Winston";
   };
 
   xdg.configFile."git/allowed_signers".text = ''

@@ -7,7 +7,7 @@
 
   # inter-machine VPN
   services.tailscale = {
-    enable = true;
-    openFirewall = true;
+    enable = false;
+    openFirewall = false;
   };
 }

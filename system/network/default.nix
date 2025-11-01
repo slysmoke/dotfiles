@@ -19,7 +19,7 @@
     Host neushore
       User builder
       HostName build.neushore.dev
-      IdentityFile /home/mihai/.ssh/id_ed25519
+      IdentityFile /home/devnull/.ssh/id_ed25519
       Port 30
   '';
 

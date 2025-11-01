@@ -1,4 +1,4 @@
 {
   # smooth backlight control
-  hardware.brillo.enable = true;
+  #hardware.brillo.enable = true;
 }

@@ -1,5 +1,5 @@
 {
-  "mihai@io" = [
+  "devnull@io" = [
     ../.
     ./io
   ];
