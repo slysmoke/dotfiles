@@ -12,7 +12,7 @@
 
   boot = {
     lanzaboote = {
-      enable = true;
+      enable = false;
       pkiBundle = "/etc/secureboot";
     };
 
