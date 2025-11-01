@@ -19,7 +19,7 @@ let
   ];
 
   laptop = desktop ++ [
-    .
+    
 
     ./services/backlight.nix
     ./services/power.nix
