@@ -25,7 +25,7 @@
         inherit specialArgs;
         modules = laptop ++ [
           ./io
-          "${mod}/core/lanzaboote.nix"
+          #"${mod}/core/lanzaboote.nix"
 
           "${mod}/programs/gamemode.nix"
           "${mod}/programs/hyprland"
