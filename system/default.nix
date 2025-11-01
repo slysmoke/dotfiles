@@ -15,7 +15,7 @@ let
     ./services
     ./services/greetd.nix
     ./services/pipewire.nix
-    /hardware/bluetooth.nix
+    ./hardware/bluetooth.nix
   ];
 
   laptop = desktop ++ [
